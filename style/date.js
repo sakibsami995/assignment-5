@@ -9,5 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const date2 = today.getDate();
     const year2 = today.getFullYear();
     
-    dateToday.innerHTML = `${dayName}, <br> ${monthName} ${date2} ${year2}`;
+    dateToday.innerHTML = dayName + ", "+ monthName + " " + date2 + "," + " " + year2;
+
 });
