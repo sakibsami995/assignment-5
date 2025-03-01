@@ -58,7 +58,7 @@
    <main class="px-24 py-6 ">
     <!-- main div -->
     <div class="flex gap-4">
-        <div class="flex gap-6 bg-white rounded-xl ">
+        <div class="flex gap-6 bg-white rounded-xl  ">
             <div >
             <!-- first -->
             <div class="flex gap-6 p-4  mb-4 border-b-1 border-dashed border-gray-300">
@@ -77,16 +77,16 @@
                         </div>
                      </div>
                 </div>
-                <div class="flex items-center gap-6 p-6 bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]   rounded-2xl flex-1 justify-center">
+                <div id="next-page" class="flex items-center gap-6 p-6 bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]   rounded-2xl flex-1 justify-center">
                     <!-- card-container -->
-                     <div>
-                       <img src="assets/board.png" alt="">
-                     </div>
-                     <div>
-                        <div class="text-2xl text-white">
-                            <h1>Discover Something <br> New Today!</h1>
-                        </div>
-                     </div>
+                    <div>
+                        <img src="assets/board.png" alt="">
+                      </div>
+                      <div>
+                         <div class="text-2xl text-white">
+                             <h1>Discover Something <br> New Today!</h1>
+                         </div>
+                      </div>
                 </div>
                 <div class="flex items-center gap-3 p-6 bg-[#F4F7FF] rounded-2xl ">
                     <!-- card-container -->
@@ -203,17 +203,19 @@
            
             
     
-        </div>
-        <div class="px-10 bg-white py-4 rounded-xl flex-1">
-            <div class="flex gap-3 mb-3 items-center">
-                <div>
-                    <img src="assets/activity.png" alt="">
+        </div>  
+        <div class="px-3 bg-white py-4 rounded-xl flex-1">
+            <div class=" flex flex-col items-center justify-center">
+                <div class="flex gap-3 mb-3 items-center justify-center">
+                    <div>
+                        <img src="assets/activity.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-semibold">Activity Log</h1>
+                    </div>
                 </div>
-                <div>
-                    <h1>Activity Log</h1>
-                </div>
+                <button id="clear-btn" class="btn bg-[#3752FD] text-white rounded-lg mb-3 font-normal mb2">Clear History</button>
             </div>
-            <button class="btn bg-[#3752FD] text-white rounded-lg mb-3 font-normal mb2">Clear History</button>
             <hr class="border-b-1 border-dashed border-gray-300 mb-2">
             <div id="side-text" class="px-2 py-2 bg-[#F4F7FF] hidden rounded-lg  mb-2">
                <p class="text-sm">You have Complete The Task Fix Mobile Button Issue at 12:48:15 PM</p>
@@ -240,5 +242,7 @@
     <script src="style/style.js"></script>
     <script src="style/button.js"></script>
     <script src="style/sideNote.js"></script>
+    <script src="style/clear.js"></script>
+    <script src="style/login.js"></script>
 </body>
 </html>
